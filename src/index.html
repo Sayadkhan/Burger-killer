@@ -7,7 +7,66 @@
     <link rel="stylesheet" href="./index.css" />
     <title>Burger Killer</title>
   </head>
-  <body>
-    <h1 class="text-8xl font-black">Hello</h1>
+  <body class="bg-gray-100 text-gray-700">
+    <header class="bg-gray-300">
+      <nav class="container mx-auto flex justify-between py-5">
+        <h2 class="logo text-xl font-semibold uppercase">
+          Burger <span class="text-orange-500">Killer</span>
+        </h2>
+        <ul class="links flex gap-5">
+          <li>
+            <a href="#" class="text-lg hover:text-orange-500 duration-300"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a href="#" class="text-lg hover:text-orange-500 duration-300"
+              >Burgers</a
+            >
+          </li>
+          <li>
+            <a href="#" class="text-lg hover:text-orange-500 duration-300"
+              >Orders</a
+            >
+          </li>
+          <li>
+            <a href="#" class="text-lg hover:text-orange-500 duration-300"
+              >Support</a
+            >
+          </li>
+          <li>
+            <a href="#" class="text-lg hover:text-orange-500 duration-300"
+              >About</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="Burgers-section container mx-auto py-10">
+        <div class="burgers-cards-wrapper">
+          <div
+            class="burger-card rounded-lg shadow-xl overflow-hidden w-96 h-96 bg-white"
+          >
+            <div
+              class="burger-img h-48 overflow-hidden flex justify-center items-center"
+            >
+              <img
+              src=https://assets.bonappetit.com/photos/5b919cb83d923e31d08fed17/1:1/w_2560%2Cc_limit/basically-burger-1.jpg
+              class="block w-full" />
+            </div>
+            <div class="burger-text p-5 flex flex-col items-start gap-2">
+              <h2 class="text-2xl font-medium">Chicken Chess Burger</h2>
+              <p class="text-xl font-semibold text-orange-500">BDT,300 tk</p>
+              <button
+                class="bg-orange-500 text-white py-2 px-4 rounded-lg uppercase font-semibold mt-2 hover:bg-gray-700 duration-300"
+              >
+                Order now
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
